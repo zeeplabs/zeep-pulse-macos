@@ -9,6 +9,8 @@
 
 Zeep Pulse turns the MacBook notch into a live control surface for local AI coding agents. Every session's status shows up right there — working, waiting for approval, asking a question, done — so you're not tabbing between terminal windows to find out which agent needs you.
 
+![Zeep Pulse — notch panel showing per-agent usage and live session activity](images/macos.png)
+
 ## Install
 
 **Free, no account, no subscription.** Download the latest signed, notarized build from **[Releases](https://github.com/zeeplabs/zeep-pulse-macos/releases/latest)**.
