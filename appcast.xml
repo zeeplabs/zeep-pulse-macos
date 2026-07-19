@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.1.3</title>
+      <pubDate>Sun, 19 Jul 2026 14:10:34 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new</h2>
+<ul><li>Fixed auto-update: the app's embedded Sparkle public key never matched the actual signing key, so every update signature failed verification ("Erro de atualização!"). If you're on 0.1.1 or 0.1.2, download and install this version manually once — Sparkle auto-update will work correctly from here on.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.1.3/Zeep-Pulse-0.1.3.dmg" sparkle:version="4" sparkle:shortVersionString="0.1.3" type="application/octet-stream" sparkle:edSignature="Ig5VQKzDwYVXboPq2dPRXulRCygzRspBrzdQme/a9GEYPdYJ+CBdiztN9IkVIUhz6rNXSW7s2IebTlb3e8tiBQ==" length="50743834" />
+    </item>
+    <item>
       <title>Version 0.1.2</title>
       <pubDate>Sun, 19 Jul 2026 13:59:57 +0000</pubDate>
       <sparkle:version>3</sparkle:version>
