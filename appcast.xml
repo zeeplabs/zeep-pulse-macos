@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.1.2</title>
+      <pubDate>Sun, 19 Jul 2026 13:59:57 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new</h2>
+<ul><li>Fixed Claude Code's usage reset countdown never updating — a JSON decode bug always fell back to a fake "now + 5h" instead of the real reset time from Anthropic's API</li><li>Fixed usage refresh only ever checking one provider instead of all of them, and pausing whenever the app lost focus (which, for a menu-bar app, was almost always)</li><li>Added a <strong>Quit</strong> button to Settings, and a <strong>Check for Updates…</strong> button to the menu bar popover</li><li>Settings window now scrolls when content doesn't fit, and no longer misaligns when it does</li><li>Fixed "File ▸ Settings…" and "About" opening a blank window instead of the real UI — both are already one click away from the notch/menu bar</li><li>About pane now shows the real app version and an auto-updating copyright year</li><li>Onboarding's permission step is now real: Notifications, Accessibility, Automation, and Launch at Login actually request and reflect system state instead of being disconnected toggles</li><li>Keychain access no longer prompts during the splash screen — deferred until onboarding finishes</li><li>Portuguese (Brazil) translations added for all of the above</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.1.2/Zeep-Pulse-0.1.2.dmg" sparkle:version="3" sparkle:shortVersionString="0.1.2" type="application/octet-stream" sparkle:edSignature="OoxDaWq/eZJY6WFJh3BYPlw83GbUELMB02pUBgB6t8uj9J8q/Bp4lOA5olmzhGF1rdF5Iwq8lLvYfGcJEBkKCg==" length="50743854" />
+    </item>
+    <item>
       <title>Version 0.1.1</title>
       <pubDate>Sun, 19 Jul 2026 01:59:24 +0000</pubDate>
       <sparkle:version>2</sparkle:version>
