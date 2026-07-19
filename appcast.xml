@@ -14,7 +14,7 @@
 <h2>Zeep Pulse 0.1.1</h2>
 <ul><li>Auto-update via Sparkle — the app now checks for new versions and can update itself (Settings → About → "Check for Updates…")</li><li>Fixed the notch getting stuck expanded after answering a permission or question request</li><li>Jump-back now switches to the exact terminal tab/session instead of just the frontmost window (Terminal.app, iTerm2, Orca)</li><li>Fixed automation permissions never prompting for Terminal/System Events access</li><li>Permission and question cards now show a countdown and expire cleanly instead of silently doing nothing after the agent's decision window closes</li><li>New notch alert sound</li><li>Portuguese (Brazil) localization</li><li>"Start at login" toggle now actually works</li></ul>
       ]]></description>
-      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.1.1/Zeep-Pulse-0.1.1.dmg" sparkle:version="2" sparkle:shortVersionString="0.1.1" length="50712099" type="application/octet-stream" sparkle:edSignature="gnHfHJ/UP2RsfaqDYRzbz+fpdsIszuTwg3BdLHS38lC0WNrnxXid8s6vWSF4jCO1JdZsl5ZDgCBUmSN5YoDoDQ==" length="50712099" />
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.1.1/Zeep-Pulse-0.1.1.dmg" sparkle:version="2" sparkle:shortVersionString="0.1.1" type="application/octet-stream" sparkle:edSignature="gnHfHJ/UP2RsfaqDYRzbz+fpdsIszuTwg3BdLHS38lC0WNrnxXid8s6vWSF4jCO1JdZsl5ZDgCBUmSN5YoDoDQ==" length="50712099" />
     </item>
   </channel>
 </rss>
