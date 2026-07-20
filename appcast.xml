@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.1.5</title>
+      <pubDate>Mon, 20 Jul 2026 15:59:14 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new</h2>
+<ul><li>Fixed the refresh button (menu bar and notch) doing nothing when the Claude Code Keychain permission expired — it now retries authentication instead of silently failing</li><li>Fixed the notch permission/question card staying stuck on screen when you answered directly in the terminal instead of clicking Allow/Deny</li><li>Fixed usage-limit notifications: Claude Code no longer re-notifies at the same percentage on every refresh, and OpenCode no longer sends bogus percentage alerts based on session count</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.1.5/Zeep-Pulse-0.1.5.dmg" sparkle:version="6" sparkle:shortVersionString="0.1.5" type="application/octet-stream" sparkle:edSignature="+Dc0BEUPuhWRv9MfikEOA20jxvps9cmJQ3iXo3h49YxvWGd/jAPLzTmK72IeRU3SWEetPXeHioGoVx1TmXlnCg==" length="46769495" />
+    </item>
+    <item>
       <title>Version 0.1.4</title>
       <pubDate>Sun, 19 Jul 2026 14:20:18 +0000</pubDate>
       <sparkle:version>5</sparkle:version>
