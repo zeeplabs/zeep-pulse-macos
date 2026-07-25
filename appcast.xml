@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.1.6</title>
+      <pubDate>Sat, 25 Jul 2026 22:26:27 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new</h2>
+<ul><li>Fixed an intermittent crash caused by a data race in <code>SocketServer</code></li><li>Added anonymous install/update usage tracking — no user data, no PII collected</li><li>See <a href="https://github.com/zeeplabs/zeep-pulse-macos/releases">the full changelog</a> for details</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.1.6/Zeep-Pulse-0.1.6.dmg" sparkle:version="7" sparkle:shortVersionString="0.1.6" type="application/octet-stream" sparkle:edSignature="JKsln9e1pRaf7RXUZVfqH1HfZb0VjQCHRK2o4dxs+lEnQcKfh0jKYGEQCigZ8VkddNRCFadEgFhgKfyeZNrsAQ==" length="46792475" />
+    </item>
+    <item>
       <title>Version 0.1.5</title>
       <pubDate>Mon, 20 Jul 2026 15:59:14 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
