@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.1.7</title>
+      <pubDate>Mon, 27 Jul 2026 18:14:33 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new</h2>
+<ul><li>Fixed the app becoming unresponsive ("App Not Responding") — a blocking process call on the main thread at launch and whenever agent hooks refresh (e.g. changing Settings &gt; Agents or the socket path) could hang indefinitely</li><li>Fixed a thread leak in the internal socket server that occurred on every restart</li><li>See <a href="https://github.com/zeeplabs/zeep-pulse-macos/releases">the full changelog</a> for details</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.1.7/Zeep-Pulse-0.1.7.dmg" sparkle:version="8" sparkle:shortVersionString="0.1.7" type="application/octet-stream" sparkle:edSignature="5wfbaWHb7lLLfI94VrsHuqU5oc6O/KXJ1qUr13B32Ko0GhI0ieFyaLamDsrqXZbr5V2QOTqRDA/eHmMP/MowDQ==" length="46799102" />
+    </item>
+    <item>
       <title>Version 0.1.6</title>
       <pubDate>Sat, 25 Jul 2026 22:26:27 +0000</pubDate>
       <sparkle:version>7</sparkle:version>
