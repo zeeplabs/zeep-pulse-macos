@@ -5,6 +5,23 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.2.0</title>
+      <pubDate>Wed, 29 Jul 2026 17:11:36 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Zeep Pulse 0.2.0</h1>
+<h2>New</h2>
+<ul><li>Full wizard support for Claude Code's <code>AskUserQuestion</code>: multi-select and multi-question tool calls can now be answered directly from the notch (previously broken/unsupported)</li><li>Sessions appear as "Active" as soon as the CLI opens, no need to send a first prompt (Claude Code, OpenCode)</li><li>Customizable notch alert sound (7 options, with a preview button in Settings)</li><li>Toggle to hide the notch on the MacBook's built-in display (mirrors the existing external-display behavior)</li><li>Silent update check every time the menu bar popover opens, with an in-popover "Update available" banner and one-click Update button</li><li>"Automatically download updates" toggle in About Settings</li><li>Menu bar popover: fixed-order provider tabs (Claude Code / Codex / OpenCode), CodexBar-style progress bar and pace text, local 30-day Claude cost/token history via on-disk log parsing</li></ul>
+<h2>Fixed</h2>
+<ul><li>Frequent macOS Keychain prompts for Claude Code credentials — now reads the local credentials file first, adds a 6h cooldown after a denial, shows an explanatory alert before the real prompt, and adds a "Disable Keychain access" toggle in Advanced Settings</li><li>Regression where the manual "Connect" button for Claude Code usage stopped working after the Keychain cooldown fix above</li><li>Two or more agents sending permission/question requests at nearly the same time — only the first one was answerable, the rest got stuck (now queued properly)</li><li>Menu bar popover not closing automatically after clicking Settings / Check for Updates / Quit</li><li>Missing and broken pt-BR translations across the app, including a bug where <code>Text(condition ? "literal" : variable)</code> never localized at all</li><li>Claude cost tracking silently ignoring Sonnet 5 usage (missing pricing entry)</li></ul>
+<h2>Removed</h2>
+<ul><li>Usage metrics no longer shown in the notch overlay (still available in the menu bar popover)</li><li>OpenCode session/weekly quota — no official API exists for the Go plan, and a from-scratch browser-cookie based estimate was removed after proving unreliable. Local cost/token stats (via <code>opencode stats</code>) are unaffected.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.2.0/Zeep-Pulse-0.2.0.dmg" sparkle:version="9" sparkle:shortVersionString="0.2.0" type="application/octet-stream" sparkle:edSignature="7J28aVOB2mbbBW60jBpQqP2cCVGU+7SsDqxVUpnsCnaBtxbUTmuOFlulfE2eewH1LRAHOkECOr8DWnKLraY0AQ==" length="47250753" />
+    </item>
+    <item>
       <title>Version 0.1.7</title>
       <pubDate>Mon, 27 Jul 2026 18:14:33 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
