@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.2.1</title>
+      <pubDate>Fri, 31 Jul 2026 12:38:44 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new in 0.2.1</h2>
+<ul><li><strong>Multi-page AskUserQuestion wizards no longer hang the terminal.</strong> Answering a multi-question prompt from the notch now delivers every answer to the agent and returns control cleanly — no more freeze that only recovered with <code>Ctrl+C</code>.</li><li>Metrics now report to the new production endpoint.</li><li>Fixed the anonymous <code>firstSeenAt</code> install date not persisting between launches.</li><li>Updated English and pt-BR translations.</li><li>See <a href="https://github.com/zeeplabs/zeep-pulse-macos/releases">the full changelog</a> for details.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.2.1/Zeep-Pulse-0.2.1.dmg" sparkle:version="10" sparkle:shortVersionString="0.2.1" type="application/octet-stream" sparkle:edSignature="Zy5j1hgGL4dRlvBXES6Z9lgg/boqM3ugOpWLlQK+1ne7TM7VAvmZOoilu5YeFoJwLdnbQrRT2LEVuYOOt78XCA==" length="47254103" />
+    </item>
+    <item>
       <title>Version 0.2.0</title>
       <pubDate>Wed, 29 Jul 2026 17:11:36 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
