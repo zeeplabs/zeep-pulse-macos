@@ -5,6 +5,19 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.2.2</title>
+      <pubDate>Fri, 31 Jul 2026 22:10:02 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Zeep Pulse 0.2.2</h1>
+<h2>Fixed</h2>
+<ul><li>Answering an <code>AskUserQuestion</code> from the notch silently failed to reach the terminal once enough Orca terminals were open. The handle lookup (<code>orca terminal list</code>) produces a large JSON payload, and a pipe-buffer deadlock made it time out and fall back to a stale handle, so no keystrokes were ever sent. The subprocess output is now drained correctly regardless of size.</li><li>Multi-select questions stalled before submitting: the selection was toggled correctly but never confirmed, because pressing Enter on a checkbox row only toggles it. The answer now navigates to the picker's Submit button before confirming, so multi-select and multi-question wizards complete end-to-end.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.2.2/Zeep-Pulse-0.2.2.dmg" sparkle:version="11" sparkle:shortVersionString="0.2.2" type="application/octet-stream" sparkle:edSignature="FG8nnFxKHgfTKWXgdtpnlbMUfl9luCGbsOORkcqjJg5vUUQOYxIfrJPZJFnDTtGsuwb2hBUpqsGYOmkClYYhAw==" length="47255466" />
+    </item>
+    <item>
       <title>Version 0.2.1</title>
       <pubDate>Fri, 31 Jul 2026 12:38:44 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
