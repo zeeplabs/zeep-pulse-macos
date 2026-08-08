@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.2.3</title>
+      <pubDate>Sat, 08 Aug 2026 18:23:15 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new</h2>
+<ul><li>Fixed long question descriptions getting cut off with "…" in the notch's Agent Asks card — they now scroll instead</li><li>Fixed a crash (silent app close) that could happen while answering a free-text question</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.2.3/Zeep-Pulse-0.2.3.dmg" sparkle:version="12" sparkle:shortVersionString="0.2.3" type="application/octet-stream" sparkle:edSignature="EsuBN90I0CWHH3Eep0mFU3FEUx5rRs8IJuKlQV3tKyHuIBIqvVb7t/45Gp4427wdaMHU9fDPCFSw0duxuhwwCg==" length="47083027" />
+    </item>
+    <item>
       <title>Version 0.2.2</title>
       <pubDate>Fri, 31 Jul 2026 22:10:02 +0000</pubDate>
       <sparkle:version>11</sparkle:version>
