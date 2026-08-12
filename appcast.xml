@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.2.4</title>
+      <pubDate>Wed, 12 Aug 2026 23:23:16 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new</h2>
+<ul><li>Fixed a bug where clicking an option in the notch could be <strong>silently ignored</strong> — most noticeable on multi-select questions, where the first option clicked wouldn't register, and the wrong selection got sent to the terminal</li><li>Question text no longer truncates with <code>…</code> on long questions — the notch now scrolls, with a fade-and-chevron hint when there's more content below the fold</li><li>See <a href="https://github.com/zeeplabs/zeep-pulse-macos/releases">the full changelog</a> for details</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.2.4/Zeep-Pulse-0.2.4.dmg" sparkle:version="13" sparkle:shortVersionString="0.2.4" type="application/octet-stream" sparkle:edSignature="E0iDdYYpqtdGkBk6L88RVr/MNRG1ha3QZCjg8WfTOjXdKiY4tLWEtXK5hmkkHr8CacT414+oiQoQUWIzUi5ZBA==" length="47125891" />
+    </item>
+    <item>
       <title>Version 0.2.3</title>
       <pubDate>Sat, 08 Aug 2026 18:23:15 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
