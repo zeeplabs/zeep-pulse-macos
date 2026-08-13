@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.2.5</title>
+      <pubDate>Thu, 13 Aug 2026 15:08:10 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new</h2>
+<ul><li>Fixed repeated app freezes (beachball) caused by a blocked main thread during usage-metrics refresh</li><li>Usage metrics now refresh instantly and every 60s while the menu bar popover is open, and less often in the background — no more constant polling regardless of visibility</li><li>Fixed an intermittent freeze where opening the popover or notch showed a loading cursor for a few seconds, blocking notch permission buttons from being clicked</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.2.5/Zeep-Pulse-0.2.5.dmg" sparkle:version="14" sparkle:shortVersionString="0.2.5" type="application/octet-stream" sparkle:edSignature="JVHG7TDRikepwycZqD8FzcmY4KXNdAGAA3LCLmYcY5dQALldtWEsNCxoI0ddfG2cSNRTWQoYGnVGAieViSc+BA==" length="47135467" />
+    </item>
+    <item>
       <title>Version 0.2.4</title>
       <pubDate>Wed, 12 Aug 2026 23:23:16 +0000</pubDate>
       <sparkle:version>13</sparkle:version>
