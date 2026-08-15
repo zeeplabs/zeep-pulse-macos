@@ -12,7 +12,7 @@
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <h2>What's new</h2>
-<ul><li>Corrigidos travamentos e loadings no notch e no popover durante a atualização de uso dos agentes</li><li>Popover agora abre instantâneo com os dados em cache e atualiza em segundo plano, sem congelar a interface</li><li>Corrigidas race conditions internas que podiam travar o app</li><li>See <a href="https://github.com/zeeplabs/zeep-pulse-macos/releases">the full changelog</a> for details</li></ul>
+<ul><li>Fixed hangs and loading spinners in the notch and popover during agent usage-metrics refresh</li><li>Popover now opens instantly with cached data and refreshes in the background, without freezing the UI</li><li>Fixed internal race conditions that could hang the app</li><li>See <a href="https://github.com/zeeplabs/zeep-pulse-macos/releases">the full changelog</a> for details</li></ul>
       ]]></description>
       <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.2.6/Zeep-Pulse-0.2.6.dmg" sparkle:version="15" sparkle:shortVersionString="0.2.6" type="application/octet-stream" sparkle:edSignature="JgUOc1+habynNc6yV0LXM4R8ngwfGkVKE34xelO14aPv0rA+EKwUU/UL9TTTX27DVx1lhBv3HSRjFfGXhFmzDQ==" length="47167830" />
     </item>
