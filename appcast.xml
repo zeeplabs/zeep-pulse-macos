@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/zeeplabs/zeep-pulse-macos/main/appcast.xml</link>
     <description>Zeep Pulse release notes</description>
     <item>
+      <title>Version 0.2.7</title>
+      <pubDate>Thu, 20 Aug 2026 01:44:30 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.2.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new</h2>
+<ul><li>Fixed several strings in the popover that stayed in Portuguese even with the app set to English (and a few English labels that didn't translate to Portuguese either)</li><li>Fixed the "Pause notifications" switch not staying in sync with the Notch panel's own mute button</li><li>Fixed the manual refresh spinner getting stuck if the popover was closed mid-refresh</li><li>Fixed a doubled "%%" showing up in the usage pace labels</li><li>Better error messages when a Codex CLI session has expired server-side</li><li>See <a href="https://github.com/zeeplabs/zeep-pulse-macos/releases">the full changelog</a> for details</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/zeeplabs/zeep-pulse-macos/releases/download/v0.2.7/Zeep-Pulse-0.2.7.dmg" sparkle:version="16" sparkle:shortVersionString="0.2.7" type="application/octet-stream" sparkle:edSignature="iX19QlMjl2HQD95TyKuVOvNfYvT9MyvghYiO0mcYWS3VQuhPzmL8vpBOLfacU8psn+Xp+2wjafeyELazI0LqBQ==" length="47172134" />
+    </item>
+    <item>
       <title>Version 0.2.6</title>
       <pubDate>Sat, 15 Aug 2026 16:31:21 +0000</pubDate>
       <sparkle:version>15</sparkle:version>
